@@ -1,0 +1,328 @@
+        html{
+            background-color: white;
+            font-family: tahoma,arial,\5FAE\8F6F\96C5\9ED1,sans-serif;
+        }
+        body{
+            background-color: white;
+        }
+
+        /* 导航栏样式 */
+        #my_nav_table a{
+            color: #fff;
+        }
+
+        /* 详情头部的样式 */
+        #detail_head{
+            width: 1000px;
+            margin: 30px auto;
+            display: flex;
+            flex-direction: row;
+        }
+        #detail_head ul{
+            list-style: none;
+        }
+        #detail_head li{
+            list-style: none;
+        }
+        #detail_head #head_right a{
+            list-style: none;
+            text-decoration: none;
+        }
+        #head_left{
+            width: 460px;
+            height: 520px;
+            margin: 0 auto;
+        }
+        #big_pic{
+            width: 418px;
+            height: 418px;
+            margin: 5px auto;
+            text-align: center;
+            border: 1px solid rgba(0,0,0,.05);
+        }
+        #small_pic{
+            height: 82px;
+        }
+        #small_pic ul{  
+            width: 85%;
+            margin: 0 auto;
+            padding-left: 10px;
+            display: flex;
+            flex-direction: row;
+        }
+        #small_pic ul li{ 
+            width: 100%;
+        }
+        #small_pic img{
+            width: 66px;
+            height: 66px;
+        }
+        #head_right{
+            width: 510px;
+            height: 520px;
+            margin: 0 auto;
+            padding: 0 10px;
+        }       
+        #head_right a{
+            color: black;
+        }
+        #head_right h1{
+            font-size: 16px;
+            color: black;
+            vertical-align: middle;
+        }
+        #head_right dl{
+            font-size: 12px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap:wrap;
+            margin: 15px 0;
+        }
+        #head_right dt{
+            width: 69px;
+            color: gray;
+        }
+        #head_right dd{
+            /* width: 100%; */
+        }
+        #head_right dd span{
+            color: black;
+        }
+        #goods_price{
+            /* color: black; */
+            height: 40px;
+            line-height: 40px;
+            margin-left: -10px;
+            background-color: #eee;
+        } 
+        #goods_price #price_key{
+            margin-left: 10px;
+        }
+        #goods_price dd{
+            color: #FF0036;
+            font-size: 24px;
+        }
+        #goods_price #price_txt{
+            color: #FF0036;
+        }
+        #goods_price em{
+            color: #FF0036;
+        }       
+
+        /* 累计评价 */
+        #goods_mark ul{
+            border-top: 1px dotted #c9c9c9;
+            border-bottom: 1px dotted #c9c9c9;
+        }
+        #goods_mark ul{
+            display: flex;
+            flex-direction: row;
+            justify-content:center;
+        }
+        #goods_mark ul .label_left{
+            border-right:1px dotted #c9c9c9;
+        }
+        #goods_mark ul li{
+            width: 50%;
+            margin: 6px 0;
+            text-align: center;
+            height: 16px;
+            line-height: 16px;
+            font-size: 12px;
+        }
+        #goods_mark ul li .mark_label{
+            color: #999;
+        }
+        
+        #goods_mark ul li .mark_numb{
+            color: #FF0036;
+            font-weight: 700;
+        }
+        #goods_mark ul li .jf_count{
+            color: #280;
+            font-weight: 700;
+        }
+
+        /* 商品属性 */
+        #goods_attr dl{            
+            cursor: default;
+        }
+        #goods_attr dt{
+            padding-top: 5px;
+        }
+        #goods_attr ul{            
+            display: flex;
+            flex-direction: row;
+        }
+        #goods_attr ul li{
+            /* width: 100%; */
+            margin: 0 10px;
+            line-height: 28px;
+        }
+        #goods_attr ul li a{
+            border: 1px solid #b8b7bd;
+            font-weight: bold;
+            padding: 5px 10px;
+            line-height: 28px;
+        }
+        #goods_attr ul li a:hover{
+            border: 2px solid red;
+        }
+        #goods_attr ul li .chosen{
+            border: 2px solid red;
+        }
+        #goods_attr dl #mui_amount_input{
+            font-size: 12px;
+            margin-left: 10px;
+            height: 26px;
+            border: 1px solid #a7a6ac;
+            color: #666;
+            width: 36px;
+        }
+        #goods_attr dl #mui_amount_btn{
+            display: inline-block;
+            vertical-align: middle;
+            line-height: 31px;
+        }
+        #goods_attr dl #mui_amount_increse{
+            width: 14px;
+            height: 10px;
+            overflow: hidden;
+            border: 1px solid #a7a6ab;
+            display: block;
+            vertical-align: middle;
+            text-align: center;
+            font-size: 14px;
+            cursor: pointer;
+            line-height: 10px;
+            color: #878787;
+            margin-bottom: 1px;
+            padding: 1px;
+        }
+        #goods_attr dl #mui_amount_decrease{
+            width: 14px;
+            height: 10px;
+            overflow: hidden;
+            border: 1px solid #a7a6ab;
+            display: block;
+            vertical-align: middle;
+            text-align: center;
+            /* font-family: tm-detail-font!important; */
+            font-size: 14px;
+            cursor: pointer;
+            line-height: 10px;
+            color: #878787;
+            padding: 1px;
+        }
+       
+        /* 购买按钮 */
+        #action_button{
+            clear: both;
+            padding: 10px 0 0 66px;
+            margin: 10px 0 0;
+        }
+        #action_button #btn_buy{
+            margin-right: 10px;
+            float: left;
+            overflow: hidden;
+            position: relative;
+            width: 178px;
+            height: 38px;
+            line-height: 38px;
+            background-color: #ffeded;
+            border: 1px solid #FF0036;
+            font-family: 'Microsoft Yahei';
+            font-size: 16px;
+            text-align: center;
+            cursor: default;
+        }
+        #action_button #btn_buy a{
+            color: #FF0036;
+        }
+        #action_button #btn_linkBuy{
+            float: left;
+            background-color: #ff0036;
+            border: 1px solid #ff0036;
+            margin-right: 0;
+            overflow: hidden;
+            position: relative;
+            width: 178px;
+            height: 38px;
+            line-height: 38px;
+            font-family: 'Microsoft Yahei';
+            font-size: 16px;
+            text-align: center;
+            cursor: default;
+        }
+        #action_button #btn_linkBuy a{
+            color: #fff;
+        }
+
+        /* 服务承诺 */
+        #servies_promise{
+            margin-top: 85px;
+            padding-bottom: 20px;
+            position: relative;
+        }
+        #servies_promise dl{
+            
+        }
+        #servies_promise dd{
+            width: 440px;
+        }
+        #servies_promise ul{
+            display: block;
+
+        }
+        #servies_promise ul li{
+            float: left;
+            color:#333;
+            margin: 0 15px 6px;
+        }
+
+        /* 商品详情主体内容的样式 */
+		#detail_body{
+			width: 1000px;
+			margin: 50px auto;
+            display: block;
+		}		
+		#detail_body ul{
+			list-style: none;
+			border-bottom: 1px solid #e4393c;
+		}
+		#detail_body ul li{
+			display: inline-block;
+			width: 120px;
+			text-align: center;
+			height: 50px;
+			line-height: 50px;
+			vertical-align: center;
+		}
+        #detail_body #detail_content{
+            width: 1000px;
+        }
+        #detail_body #c_list ul li a{
+            color: black;
+        }
+        #detail_body #c_list{
+            background-color: #f7f7f7;
+        }
+		#c_list a:hover{
+			color: #ff0036;
+		}
+		#c_con{			
+			margin-top:20px; 
+		}
+		.detail_initial{
+			display: none;
+		}
+		.detail_show{
+			display: block;
+		}
+		.bg_c{
+			background-color: #ff0036;
+			color: white;
+		}
+		#c_list .bg_c a:hover{
+			color: white;
+		}
