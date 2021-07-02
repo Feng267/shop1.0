@@ -1,7 +1,7 @@
 <?php
-$mysql_servername = "localhost";  //服务器端口
-$mysql_username = "root";   //服务器用户名
-$mysql_password = "root";   //服务器密码
+$mysql_servername = "localhost";  // 服务器端口
+$mysql_username = "root";   // 服务器用户名
+$mysql_password = "root";   // 服务器密码
 
 // 创建连接,连接数据库
 $conn = new mysqli($mysql_servername, $mysql_username, $mysql_password) or die('连接失败');   //连接数据库
